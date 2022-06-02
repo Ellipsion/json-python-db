@@ -1,0 +1,15 @@
+{
+  "database_name": "mydb",
+  "tables": [],
+  "mytable": {
+    "table_name": "mytable",
+    "attributes": {
+      "name": {
+        "attribute_name": "name",
+        "type": "char(20)",
+        "constraints": ["not", "null"],
+        "values": []
+      }
+    }
+  }
+}

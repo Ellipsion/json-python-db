@@ -1,0 +1,20 @@
+{
+  "database_name": "students",
+  "tables": ["books"],
+  "books": {
+    "table_name": "books",
+    "attributes": {
+      "book_name": {
+        "field": "book_name",
+        "type": "char(20)",
+        "constraints": ["not", "null"]
+      },
+      "author": {
+        "field": "author",
+        "type": "char(20)",
+        "constraints": []
+      }
+    },
+    "tuples": [["12", " dede", "koli"]]
+  }
+}

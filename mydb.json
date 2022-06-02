@@ -1,0 +1,11 @@
+{
+    "database_name": "mydb",
+    "tables": ["mytable"],
+    "mytable": {
+      "table_name": "mytable",
+      "attributes": {
+        "name": { "attribute_name": "name", "type": "char(20)", "constraints": [] },
+        "age": { "attribute_name": "age", "props": { "type": "int" } }
+      }
+    }
+  }

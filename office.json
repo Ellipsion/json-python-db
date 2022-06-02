@@ -1,0 +1,22 @@
+{
+  "database_name": "office",
+  "tables": ["employees"],
+  "employees": {
+    "table_name": "employees",
+    "attributes": {
+      "d": { "field": "d", "type": "int", "constraints": [], "values": [] },
+      "name": {
+        "field": "name",
+        "type": "char(20)",
+        "constraints": ["not", "null"],
+        "values": []
+      },
+      "salary": {
+        "field": "salary",
+        "type": "int",
+        "constraints": [],
+        "values": []
+      }
+    }
+  }
+}
